@@ -1,4 +1,4 @@
-/** GSLDAPCom.m - <title>GSLDAP: Common</title>
+/** GSLDAPCom.h - <title>GSLDAP: Common</title>
 
    Copyright (C) 2002-2003 Free Software Foundation, Inc.
    
@@ -35,6 +35,7 @@
 #include <string.h>
 #include <ldap.h>
 #include <lber.h>
+#include <sys/time.h>
 #include <Foundation/NSObject.h>
 #include <Foundation/NSString.h>
 #include <Foundation/NSArray.h>
