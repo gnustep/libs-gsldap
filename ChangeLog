@@ -1,3 +1,7 @@
+2004-11-03  Richard Frith-Macdonald  <rfm@gnu.org>
+	* GSLDAPCom.h:
+	Fix bad include of GSCategories
+
 2003-03-01  Manuel Guesdon  <mguesdon@orange-concept.com>
 	* GSLDAPCom.h:
 		o added #include <sys/time.h>

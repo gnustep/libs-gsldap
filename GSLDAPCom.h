@@ -45,7 +45,7 @@
 #include <Foundation/NSScanner.h>
 #include <Foundation/NSCalendarDate.h>
 #include <Foundation/NSException.h>
-#include <base/GSCategories.h>
+#include <GNUstepBase/GSCategories.h>
 #include <gsldap/GSLDAPUtils.h>
 #include <gsldap/GSLDAPConnection.h>
 #include <gsldap/GSLDAPEntry.h>
