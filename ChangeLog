@@ -1,3 +1,7 @@
+2005-12-16  Adam Fedor  <fedor@gnu.org>
+
+	* GNUmakefile: Remove GNUSTEP_MAKEFILES def.
+
 2004-11-03  Richard Frith-Macdonald  <rfm@gnu.org>
 	* GSLDAPCom.h:
 	Fix bad include of GSCategories
