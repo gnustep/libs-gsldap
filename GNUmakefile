@@ -22,10 +22,6 @@
 #  Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 #
 
-# Install into the system root by default
-GNUSTEP_INSTALLATION_DIR = $(GNUSTEP_SYSTEM_ROOT)
-TOOL_INSTALLATION_DIR = ./
-
 include $(GNUSTEP_MAKEFILES)/common.make
 
 PACKAGE_NAME = gsldap

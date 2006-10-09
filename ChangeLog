@@ -1,3 +1,8 @@
+2006-10-09  Nicola Pero  <nicola.pero@meta-innovation.com>
+
+	* GNUmakefile: Do not set GNUSTEP_INSTALLATION_DIR.
+	Do not set unused variable TOOL_INSTALLATION_DIR.
+
 2005-12-16  Adam Fedor  <fedor@gnu.org>
 
 	* GNUmakefile: Remove GNUSTEP_MAKEFILES def.
