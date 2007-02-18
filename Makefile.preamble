@@ -48,16 +48,10 @@ ADDITIONAL_CFLAGS =  $(ADDITIONAL_ALLCFLAGS)
 ADDITIONAL_INCLUDE_DIRS = -I./ -I..
 
 # Additional LDFLAGS to pass to the linker
-ifeq ($(debug), yes)
-	ADDITIONAL_LDFLAGS =  -lldap -llber
-else
-	ADDITIONAL_LDFLAGS =  -lldap -llber
-endif
-
-#-lgnustep-xraw
+ADDITIONAL_LDFLAGS =  -lldap -llber
 
 # Additional library directories the linker should search
-ADDITIONAL_LIB_DIRS = -L../src/$(GNUSTEP_OBJ_DIR) -L$(GNUSTEP_SYSTEM_ROOT)/lib  -L/usr/local/lib -lldap -llber -lresolv
+ADDITIONAL_LIB_DIRS = -L../src/$(GNUSTEP_OBJ_DIR) -L/usr/local/lib -lldap -llber -lresolv
 
 #
 # Flags dealing with installing and uninstalling
